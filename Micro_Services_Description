@@ -1,1 +1,6 @@
-
+* My preffered architecture for complex web applications is Micro-service architecture.
+* Microservice architecture consists of a collection of small, autonomous services. 
+* Each service is a separate codebase, which can be managed by a small development team implementing a single business capability.
+* Each micro-service handles its own data in a separate database.
+* Services communicate with each other by using APIs. Internal implementation details of each service are hidden from other services.
+* Any client intending to call the micro-services, should call the API gateway which will then call the micro services. 
